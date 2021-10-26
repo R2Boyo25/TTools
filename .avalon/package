@@ -2,5 +2,7 @@
     "binname": "ttools",
     "mvBinAfterInstallScript": true,
     "installScript": ".avalon/generate.py",
-    "toCopy": "scripts"
+    "toCopy": [
+        "scripts"
+    ]
 }
