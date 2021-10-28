@@ -3,6 +3,7 @@
     "mvBinAfterInstallScript": true,
     "installScript": ".avalon/generate.py",
     "toCopy": [
-        "scripts"
+        "scripts",
+        ".run.py"
     ]
 }
