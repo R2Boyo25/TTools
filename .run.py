@@ -17,4 +17,7 @@ try:
 except:
     script = 'list'
 
-os.system(f'bash {scriptsFolder}/{script}.sh')
+if os.path.exists(f"{scriptsFolder}/{script}.py"):
+    os.system(f"python3 {scriptsFolder}/{script}.py")
+else:
+    os.system(f'bash {scriptsFolder}/{script}.sh')
